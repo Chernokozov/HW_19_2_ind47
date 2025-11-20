@@ -1,0 +1,142 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Смартфон iPhone",
+      "description": "Современный смартфон",
+      "image": "",
+      "category": 10,
+      "price": "79999.99",
+      "created_at": "2025-11-13T19:21:31.412Z",
+      "update_at": "2025-11-13T19:21:31.412Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Ноутбук Gaming",
+      "description": "Игровой ноутбук",
+      "image": "",
+      "category": 10,
+      "price": "125999.99",
+      "created_at": "2025-11-13T19:21:31.421Z",
+      "update_at": "2025-11-13T19:21:31.421Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "Наушники Wireless",
+      "description": "Беспроводные наушники",
+      "image": "",
+      "category": 10,
+      "price": "8999.99",
+      "created_at": "2025-11-13T19:21:31.426Z",
+      "update_at": "2025-11-13T19:21:31.426Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Программирование на Python",
+      "description": "Учебник по Python",
+      "image": "",
+      "category": 11,
+      "price": "2500.00",
+      "created_at": "2025-11-13T19:21:31.429Z",
+      "update_at": "2025-11-13T19:21:31.429Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "Война и мир",
+      "description": "Роман Л.Н. Толстого",
+      "image": "",
+      "category": 11,
+      "price": "1200.00",
+      "created_at": "2025-11-13T19:21:31.433Z",
+      "update_at": "2025-11-13T19:21:31.433Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Футболка хлопковая",
+      "description": "Хлопковая футболка",
+      "image": "",
+      "category": 12,
+      "price": "1999.99",
+      "created_at": "2025-11-13T19:21:31.436Z",
+      "update_at": "2025-11-13T19:21:31.436Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "Джинсы классические",
+      "description": "Классические джинсы",
+      "image": "",
+      "category": 12,
+      "price": "3999.99",
+      "created_at": "2025-11-13T19:21:31.441Z",
+      "update_at": "2025-11-13T19:21:31.441Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "name": "Офисное кресло",
+      "description": "Эргономичное кресло",
+      "image": "",
+      "category": 13,
+      "price": "15999.99",
+      "created_at": "2025-11-13T19:21:31.444Z",
+      "update_at": "2025-11-13T19:21:31.444Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 13,
+    "fields": {
+      "name": "Футбольный мяч",
+      "description": "Профессиональный мяч",
+      "image": "",
+      "category": 14,
+      "price": "2999.99",
+      "created_at": "2025-11-13T19:21:31.448Z",
+      "update_at": "2025-11-13T19:21:31.448Z",
+      "manufactured_at": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 14,
+    "fields": {
+      "name": "Беговая дорожка",
+      "description": "Электрическая беговая дорожка",
+      "image": "",
+      "category": 14,
+      "price": "45999.99",
+      "created_at": "2025-11-13T19:21:31.451Z",
+      "update_at": "2025-11-13T19:21:31.451Z",
+      "manufactured_at": null
+    }
+  }
+]
