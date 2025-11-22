@@ -1,0 +1,25 @@
+{% extends 'catalog/base.html' %}
+{% load media_tags %}
+
+{% block content %}
+<div class="container">
+    <h2>Тест медиафайлов</h2>
+    <p>MEDIA_URL: {{ MEDIA_URL }}</p>
+    <p>MEDIA_ROOT: {{ MEDIA_ROOT }}</p>
+
+    {% if products %}
+        {% for product in products %}
+            <div>
+                <h4>{{ product.name }}</h4>
+                {% if product.image %}
+                    <p>Путь: {{ product.image.url }}</p>
+                    <p>Фильтр: {{ product.image|mediapath }}</p>
+                    <img src="{{ product.image|mediapath }}" alt="test" style="max-width: 200px;">
+                {% else %}
+                    <p>Нет изображения</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}

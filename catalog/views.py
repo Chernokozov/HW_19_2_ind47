@@ -7,7 +7,7 @@ from .forms import ProductForm
 def home(request):
     """Контроллер для главной страницы с пагинацией"""
     products_list = Product.objects.all().order_by('-created_at')
-    paginator = Paginator(products_list, 4)  # 4 товара на странице
+    paginator = Paginator(products_list, 8)
 
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
@@ -62,6 +62,6 @@ def product_delete(request, pk):
 
     return render(request, 'catalog/product_confirm_delete.html', {'product': product})
 
-def media_test(reequest):
+def media_test(request):
     """Страница для тестирования медифайлов"""
     return render(request, 'catalog/media_test.html')
